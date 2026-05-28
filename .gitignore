@@ -1,0 +1,29 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Build output ──────────────────────────────────────────────────────────────
+dist/
+dist-ssr/
+
+# ── Environment variables (NEVER commit real secrets) ─────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Firebase ──────────────────────────────────────────────────────────────────
+.firebase/
+.firebaserc          # contains your project alias — keep private or commit your own
+
+# ── Editor / OS ───────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
