@@ -86,7 +86,7 @@ service cloud.firestore {
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) ✅
+Open [http://localhost:5173](http://localhost:5173) 
 
 ### Step 6 — Deploy to Vercel (recommended)
 
